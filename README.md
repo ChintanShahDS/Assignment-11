@@ -1,5 +1,6 @@
 # Assignment11
 # Session 11 - Assignment
+
 ## Basic expectations
 - Follow good structure for Code (Reference: https://github.com/kuangliu/pytorch-cifar)
 - Create
@@ -35,11 +36,11 @@
       - RandomCrop(32, padding=4)
       - CutOut(16x16)
 
-### Reference to the main repo used
-https://github.com/ChintanShahDS/ERAV2_Main
-Follow this to try your own Resnet18 or Resnet34 model with different hyperparameters and options
+## Reference to the main repo used for this work and understanding the base code used for running this experiment
+- https://github.com/ChintanShahDS/ERAV2_Main
+- Follow this to try your own Resnet18 or Resnet34 model with different hyperparameters and options
 
-### Results:
+## Results:
 - Model: Resnet18
 - Epochs: 20
 - Optimizer: SGD
