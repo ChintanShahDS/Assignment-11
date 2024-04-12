@@ -56,3 +56,10 @@
 - Testing
   - Average loss: 0.0005
   - Accuracy: 9213/10000 (92.13%)
+
+## Some observations
+- Ensure that the model initialization is before the Optimizer setup as the parameters are reset and model will not train
+- Issues with maxlr with SGD: Incorrect slope getting picked as per me (Need to find a solution for the same)
+- Cutout from transforms is not working properly but having issues even with Albumentations library
+  - Using RandomErasing - The size of the cutout is not in proportion mentioned in the scale
+  - Also not able to find the equivalent way to get the right cutout
